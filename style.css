@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    font-family: "Inter",serif;
 }
 
 .a img{    
@@ -17,7 +18,7 @@ body{
     position: absolute;
     top: 30%;
     font-family: 'Caramel', sans-serif;
-    font-family: serif;
+    font-family: "Inter",serif;
     color: transparent;
     text-align: center;
     animation: effect 2s linear infinite;
