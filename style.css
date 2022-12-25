@@ -1,0 +1,58 @@
+body{
+    background-color: #000;
+}
+
+.a img{    
+    background-image: url(https://thumbs.gfycat.com/AgedUnknownCat-size_restricted.gif);
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.container{
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    font-family: 'Caramel', sans-serif;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#ff0425,  #137600);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(#ff0425, #ff0425, #137600);
+        -webkit-background-clip: text;
+    }
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+button{
+    top: 20%;
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 150px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#ff0000, #137600);
+	color: #fff;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
