@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+   <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Merry Christmas | A-MAX</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+   </head>
+
+   <body>
+      
+      <div class="a img">
+        <img src="https://thumbs.gfycat.com/AgedUnknownCat-size_restricted.gif">
+    </div>
+
+    <div class="container">
+
+        <center> 
+            <h2>Merry Christmas</h2>
+            <br>
+            <h2>Merry Christmas! May your days ahead be as vibrant as this festive season. May you shine as bright as the Christmas lights because you deserve it all. Have a great year and a wonderful life ahead!</h2>
+
+            <br>
+            <br>
+
+            <div>
+
+                <audio id="audio">
+                    <source src="MerryChristmas.mp3" type="audio/mpeg">
+                </audio>
+            
+                <button id="playPauseBTN" onclick="playPause()">Play ►</button>
+                 
+                 
+               
+        
+            </div>
+            
+        </center>
+
+    </div>
+
+    <script>
+
+        var audio = document.getElementById('audio');
+var playPauseBTN = document.getElementById('playPauseBTN');
+var count = 0;
+
+function playPause(){
+	if(count == 0){
+		count = 1;
+		audio.play();
+		playPauseBTN.innerHTML = "Pause ⏸";
+	}else{
+		count = 0;
+		audio.pause();
+		playPauseBTN.innerHTML = "Play ►";
+	}
+
+}
+
+    </script>
+    
+    <script src="js/custom.js"></script>
+
+  
+
+
+   </body>
+</html>
